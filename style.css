@@ -5,7 +5,7 @@ body{
 .text-orange{
     color: orange;
 }
-.btn-pj{
+.btn-primary{
 border-radius: 5px;
 background: #FD6E0A;
 border: 0;
@@ -17,8 +17,9 @@ padding: 10px 25px;
 /*nav related style*/
 nav{
     display: flex;
-   /* justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200;
 }
 .nav-title{
     color: #181818;
@@ -36,5 +37,17 @@ nav li{
 nav a {
   text-direction:none;
   color:#474747
-
+}
+/*header related style*/
+header{
+    background-color: #FFF8F3;
+}
+.banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+}
+.banner .profile-pic{
+    width: 584px;
+    
 }
