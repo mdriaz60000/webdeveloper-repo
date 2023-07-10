@@ -126,8 +126,17 @@ display: flex;
 .skil-discription{
 color: #757575;
 }
+.resume-column{
+    display: flex;
+}
 .resume-column-title{
     color: var #474747;
 font-size: 30px;
 font-weight: 700;
+justify-content: space-between;
+display: flex;
+}
+.resume-container{
+display: flex;
+    gap: 50px;
 }
